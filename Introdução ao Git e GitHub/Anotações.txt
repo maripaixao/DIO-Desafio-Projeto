@@ -1,0 +1,32 @@
+Link download Git: https://git-scm.com/downloads
+
+- O Git é um sistema de versionamento de código compartilhado.
+
+	Git != GitHub, porém complementares
+
+- Vantagens:
+  * Controle de versão;
+  * Armazenamento em nuvem;
+  * Trabalho em equipe;
+  * Melhoramento de código.
+
+Git: CLI (Command Line Interface)
+GitHub: GUI (Graphical User Interface)
+
+** Alguns Conceitos **
+
+- SHA1
+Secure Hash Algorithm (Algritmo de Hash Seguro), conjunto de funções criptográficas projetadas pela NSA dos EUA.
+É uma forma curta de representar um arquivo.
+
+- BLOBS
+Contém metadados do Git que consiste no tamanho do objeto ou string armazenados
+
+- TREE
+Armazena e aponta para um Blob.
+Contém metadados, mas diferentemente do Blob, armazea o nome do arquivo.
+Monta toda a estrututa de armazenamento/localização do arquivo.
+
+- COMMIT
+Aponta para a árvore que aponta para o Blob.
+O SHA1 do commit é o hash de toda a informação.
